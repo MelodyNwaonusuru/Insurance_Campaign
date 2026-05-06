@@ -1,5 +1,5 @@
 ﻿-- Insurance Campaign
--- SQL Cleaning + Case Study Queries
+-- SQL Cleaning + Case Study Queries.
 -- ============================================================
 
 
