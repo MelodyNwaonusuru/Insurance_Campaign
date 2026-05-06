@@ -1,11 +1,15 @@
 Nova Life Insurance — Project Background
+
 Overview
+
 Nova Life Insurance is an auto insurance provider operating across five states in the United States: California, Oregon, Arizona, Nevada, and Washington. The company serves over 9,000 policyholders across three policy types — Personal Auto, Corporate Auto, and Special Auto — delivered through multiple sales channels including Agent, Web, Branch, and Call Centre.
 
 Problem Statement
+
 Despite holding a rich dataset spanning customer demographics, policy details, claims history, sales channels, and campaign responses, Nova Life had not applied a structured analytical framework to its renewal campaign data. Without this visibility, the business was allocating campaign budgets without evidence, missing high-value customer segments, and unable to identify which channels, offer types, or demographic profiles were driving the strongest commercial returns.
 
 Project Objective
+
 This project delivers a thorough analysis and synthesis of Nova Life's internal campaign data to surface critical, actionable insights that directly support the company's growth and retention strategy. By transforming raw data into clear narratives and evidence-backed recommendations, this project equips Nova Life's leadership with the intelligence needed to run smarter campaigns, protect Customer Lifetime Value, and allocate resources where they generate the highest return.
 
 Key Areas of Analysis
@@ -17,9 +21,11 @@ Key Areas of Analysis
 5. Geographic Comparison: A state-level breakdown of customer volume, response rates, total claims, average CLV, and coverage preferences across all five operational states.
 
 Data Structure & Initial Checks
+
 Nova Life's dataset consists of a single Marketing table containing 9,134 customer records. Before analysis, the data was cleaned using SQL — removing duplicates, standardising inconsistent values across Response, Gender, Marital Status, Vehicle Size, and Sales Channel fields, and trimming whitespace from State entries. A clean version of the table was saved as Marketing_Clean for all downstream analysis.
 
 Executive Summary — Business Performance Overview
+
 Nova Life Insurance
 
 1. Nova Life holds 9,134 customers with an average Customer Lifetime Value of $8,005, a campaign response rate of 14.32%, and $3.96M in total claims paid across the portfolio.
@@ -38,7 +44,7 @@ Key Findings
 1. The overall campaign response rate stands at 14.32%, with 1,308 customers out of 9,134 responding positively — a baseline that highlights both the scale of non-response and the opportunity to improve targeting precision.
 2. Renewal Offer Type 2 drives the highest response rate across all offer types, making it the single most effective campaign format in Nova Life's current toolkit and the clearest candidate for broader rollout.
 3. The Agent channel delivers the strongest response rate and highest average CLV among all sales channels, confirming that human-led, relationship-based outreach significantly outperforms self-service and digital alternatives.
-4. Basic policyholders account for the highest volume of campaign responses (798), followed by Extended (390) and Premium (120) — suggesting that mid-tier customers are the most engaged and reachable segment for renewal campaigns.
+4. Basic policyholders account for the highest volume of campaign responses (798), followed by Extended (390) and Premium (120), suggesting that mid-tier customers are the most engaged and reachable segment for renewal campaigns.
 5. Response rate is nearly equal between male (50.46%) and female (49.54%) customers, indicating that gender alone is not a reliable campaign targeting variable and that demographic precision should focus on other attributes.
 
 Show Image
