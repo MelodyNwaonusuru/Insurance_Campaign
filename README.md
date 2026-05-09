@@ -1,8 +1,8 @@
-Nova Life Insurance — Project Background
+**Nova Life Insurance — Project Background**
 
-Overview
+**Overview**
 
-Nova Life Insurance is an auto insurance provider operating across five states in the United States: California, Oregon, Arizona, Nevada, and Washington. The company serves over 9,000 policyholders across three policy types — Personal Auto, Corporate Auto, and Special Auto — delivered through multiple sales channels including Agent, Web, Branch, and Call Centre.
+Nova Life Insurance is an auto insurance provider operating across five states in the United States: California, Oregon, Arizona, Nevada, and Washington. The company serves over 9,000 policyholders across three policy types; Personal Auto, Corporate Auto, and Special Auto delivered through multiple sales channels including Agent, Web, Branch, and Call Centre.
 
 Problem Statement
 
@@ -22,11 +22,13 @@ Key Areas of Analysis
 
 Data Structure & Initial Checks
 
-Nova Life's dataset consists of a single Marketing table containing 9,134 customer records. Before analysis, the data was cleaned using SQL — removing duplicates, standardising inconsistent values across Response, Gender, Marital Status, Vehicle Size, and Sales Channel fields, and trimming whitespace from State entries. A clean version of the table was saved as Marketing_Clean for all downstream analysis.
+Nova Life's dataset consists of a single Marketing table containing 9,134 customer records. Before analysis, the data was cleaned using SQL removing duplicates, standardising inconsistent values across Response, Gender, Marital Status, Vehicle Size, and Sales Channel fields, and trimming whitespace from State entries. A clean version of the table was saved as Marketing_Clean for all downstream analysis.
 
-Executive Summary — Business Performance Overview
+Download the full SQL file containing data cleaning and analysis queries:
 
-Nova Life Insurance
+[⬇️ Download Insurance_Campaign.sql](https://github.com/MelodyNwaonusuru/Insurance_Campaign/raw/main/Insurance_Campaign.sql)
+
+**Executive Summary — Executive & Financial Overview**
 
 1. Nova Life holds 9,134 customers with an average Customer Lifetime Value of $8,005, a campaign response rate of 14.32%, and $3.96M in total claims paid across the portfolio.
 2. The Agent channel leads all others in both CLV and response rate, establishing itself as Nova Life's most commercially productive acquisition and retention channel by a clear margin.
