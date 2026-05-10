@@ -2,7 +2,7 @@
 
 **Overview**
 
-Nova Life Insurance is an auto insurance provider operating across five states in the United States: California, Oregon, Arizona, Nevada, and Washington. The company serves over 9,000 policyholders across three policy types — Personal Auto, Corporate Auto, and Special Auto — delivered through multiple sales channels including Agent, Web, Branch, and Call Centre.
+Nova Life Insurance is an auto insurance provider operating across five states in the United States: California, Oregon, Arizona, Nevada, and Washington. The company serves over 9,000 policyholders across three policy types: Personal Auto, Corporate Auto, and Special Auto delivered through multiple sales channels including Agent, Web, Branch, and Call Centre.
 
 **Problem Statement**
 
@@ -46,7 +46,7 @@ Download the full SQL file containing data cleaning and analysis queries:
 7. The Agent channel leads all others in both CLV and response rate, establishing itself as Nova Life's most commercially productive acquisition and retention channel by a clear margin.
 
 Below is the Executive Overview page from the Power BI dashboard, and more examples are included throughout the report.
-Show Image
+![image alt](https://github.com/MelodyNwaonusuru/Insurance_Campaign/blob/main/Screenshot%202026-05-10%20173451.png?raw=true)
 
 
 **Insight Deep Dive — Campaign & Response Analytics**
@@ -71,7 +71,7 @@ Show Image
 
 9. The Middle income band generates the highest average CLV at $8,308, followed by Upper Middle at $8,219. The No Income segment records the lowest CLV at $7,636, while the High income tier sits at $7,796 a counterintuitive result that likely reflects policy type composition within that cohort, and warrants further investigation before assuming high earners are naturally high-value insurance customers.
 
-Show Image
+
 
 
 **Insight Deep Dive — Customer Demographics & Risk Profile**
