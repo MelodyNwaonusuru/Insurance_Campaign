@@ -93,7 +93,8 @@ Below is the Executive Overview page from the Power BI dashboard, and more examp
 
 8. Response rate remains virtually equal between male and female customers at 50.46% female versus 49.54% male confirming across both the Campaign Analytics and Demographics pages that gender holds no material predictive power for campaign targeting and should be deprioritised in segmentation models.
 
-Show Image
+
+![image alt](https://github.com/MelodyNwaonusuru/Insurance_Campaign/blob/main/Screenshot%202026-05-10%20173643.png?raw=true)
 
 **Recommendations**
 
