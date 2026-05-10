@@ -22,11 +22,13 @@ This project delivers a thorough analysis and synthesis of Nova Life's internal 
 
 **Data Structure & Initial Checks**
 
-Nova Life's dataset consists of a single Marketing table containing 9,134 customer records. Before analysis, the data was cleaned using SQL removing duplicates, standardising inconsistent values across Response, Gender, Marital Status, Vehicle Size, and Sales Channel fields, and trimming whitespace from State entries. A clean version of the table was saved as Marketing_Clean for all downstream analysis.
+Nova Life's dataset containing 9,134 customer records. Before analysis, the data was cleaned using SQL removing duplicates, standardising inconsistent values across Response, Gender, Marital Status, Vehicle Size, and Sales Channel fields, and trimming whitespace from State entries. A clean version of the table was saved as Marketing_Clean for all downstream analysis.
 
 Download the full SQL file containing data cleaning and analysis queries:
 
 [⬇️ Download Insurance_Campaign.sql](https://github.com/MelodyNwaonusuru/Insurance_Campaign/raw/main/Insurance_Campaign.sql)
+
+The below is the interactive dashboard : 📥 [Download Power BI Dashboard (.pbix)](https://github.com/MelodyNwaonusuru/Insurance_Campaign/blob/main/Insurance_Campaign.pbix)
 
 
 **Executive Summary — Executive & Financial Overview**
