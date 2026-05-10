@@ -4,15 +4,15 @@
 
 Nova Life Insurance is an auto insurance provider operating across five states in the United States: California, Oregon, Arizona, Nevada, and Washington. The company serves over 9,000 policyholders across three policy types; Personal Auto, Corporate Auto, and Special Auto delivered through multiple sales channels including Agent, Web, Branch, and Call Centre.
 
-Problem Statement
+**Problem Statement**
 
 Despite holding a rich dataset spanning customer demographics, policy details, claims history, sales channels, and campaign responses, Nova Life had not applied a structured analytical framework to its renewal campaign data. Without this visibility, the business was allocating campaign budgets without evidence, missing high-value customer segments, and unable to identify which channels, offer types, or demographic profiles were driving the strongest commercial returns.
 
-Project Objective
+**Project Objective**
 
 This project delivers a thorough analysis and synthesis of Nova Life's internal campaign data to surface critical, actionable insights that directly support the company's growth and retention strategy. By transforming raw data into clear narratives and evidence-backed recommendations, this project equips Nova Life's leadership with the intelligence needed to run smarter campaigns, protect Customer Lifetime Value, and allocate resources where they generate the highest return.
 
-Key Areas of Analysis
+**Key Areas of Analysis**
 
 1. Campaign Response Analysis: Evaluation of overall and segmented campaign response rates across states, sales channels, coverage types, and renewal offer types — identifying which combinations convert most effectively.
 2. Customer Lifetime Value (CLV) Profiling: An analysis of what drives CLV across income bands, education levels, employment status, policy types, and customer tenure — to understand which customer profiles are most commercially valuable.
@@ -20,7 +20,7 @@ Key Areas of Analysis
 4. Demographic & Risk Profiling: An assessment of how gender, marital status, vehicle class, and complaint history relate to response behaviour, premium levels, and total claims paid.
 5. Geographic Comparison: A state-level breakdown of customer volume, response rates, total claims, average CLV, and coverage preferences across all five operational states.
 
-Data Structure & Initial Checks
+**Data Structure & Initial Checks**
 
 Nova Life's dataset consists of a single Marketing table containing 9,134 customer records. Before analysis, the data was cleaned using SQL removing duplicates, standardising inconsistent values across Response, Gender, Marital Status, Vehicle Size, and Sales Channel fields, and trimming whitespace from State entries. A clean version of the table was saved as Marketing_Clean for all downstream analysis.
 
@@ -39,9 +39,10 @@ Download the full SQL file containing data cleaning and analysis queries:
 Below is the Executive Overview page from the Power BI dashboard, and more examples are included throughout the report.
 Show Image
 
-Insight Deep Dive — Campaign & Response Analytics
 
-Key Findings
+**Insight Deep Dive — Campaign & Response Analytics**
+
+**Key Findings**
 
 1. The overall campaign response rate stands at 14.32%, with 1,308 customers out of 9,134 responding positively — a baseline that highlights both the scale of non-response and the opportunity to improve targeting precision.
 2. Renewal Offer Type 2 drives the highest response rate across all offer types, making it the single most effective campaign format in Nova Life's current toolkit and the clearest candidate for broader rollout.
@@ -51,9 +52,9 @@ Key Findings
 
 Show Image
 
-Insight Deep Dive — Customer Demographics & Risk Profile
+**Insight Deep Dive — Customer Demographics & Risk Profile**
 
-Key Findings
+**Key Findings**
 
 1. Married customers account for 53.21% of all campaign responses, far outpacing divorced (24.77%) and single (22.02%) segments — making marital status one of the strongest demographic predictors of campaign receptiveness in the Nova Life customer base.
 2. The Middle income band produces the highest average CLV at $8.3K, slightly ahead of the Upper Middle band at $8.2K, while No Income customers record the lowest CLV at $7.6K — providing a clear income-based segmentation framework for campaign prioritisation.
@@ -64,9 +65,9 @@ Key Findings
 
 Show Image
 
-Recommendations
+**Recommendations**
 
-Strategic Priorities
+**Strategic Priorities**
 
 1. Standardise renewal campaigns around Offer Type 2: this offer format outperforms all others in conversion rate; Nova Life should retire or restructure underperforming offer types and redirect campaign budget toward the format that is already proven to work
 2. Invest disproportionately in the Agent channel — with the highest response rate and average CLV among all channels, the Agent network is Nova Life's most commercially effective distribution asset; scaling agent capacity, improving agent tooling, and incentivising agent-led renewals should be a near-term operational priority
@@ -79,8 +80,10 @@ Strategic Priorities
 
 These recommendations are drawn directly from the data and are designed to be actionable within a short execution window. The focus is on quick wins that protect CLV, concentrate budget in the highest-converting segments, and double down on what the data has already confirmed is working.
 
-Tools Used
-ToolPurpose 
+**Tools Used**
+
+**Tool Purpose **
+
 1. SQL Server (T-SQL)Data cleaning — duplicate removal, column standardisation, null handling, and exploratory data analysis queries
 2. Power BI Desktop: Data modelling, DAX measure development, dashboard design and layout across three report pages
 3. Power Query (M): Data transformation, column structuring, and data type enforcement before model load
