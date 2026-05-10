@@ -71,8 +71,7 @@ Below is the Executive Overview page from the Power BI dashboard, and more examp
 
 9. The Middle income band generates the highest average CLV at $8,308, followed by Upper Middle at $8,219. The No Income segment records the lowest CLV at $7,636, while the High income tier sits at $7,796 a counterintuitive result that likely reflects policy type composition within that cohort, and warrants further investigation before assuming high earners are naturally high-value insurance customers.
 
-
-
+![image alt](https://github.com/MelodyNwaonusuru/Insurance_Campaign/blob/main/Screenshot%202026-05-10%20173550.png?raw=true)
 
 **Insight Deep Dive — Customer Demographics & Risk Profile**
 
