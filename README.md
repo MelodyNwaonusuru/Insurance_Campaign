@@ -1,3 +1,20 @@
+🛡️ Nova Life Insurance — Marketing Campaign & Customer Value Analysis
+
+SQL + Power BI Project | 9,134 Customers | Raw Data ➝ Insights ➝ Strategy
+
+## 📚 Table of Contents
+
+- [Project Background](#project-background)
+- [Problem Statement](#problem-statement)
+- [Project Objective](#project-objective)
+- [Key Areas of Analysis](#key-areas-of-analysis)
+- [Data Structure & Initial Checks](#data-structure--initial-checks)
+- [Executive Summary](#executive-summary)
+- [Insight Deep Dive — Campaign & Response Analytics](#insight-deep-dive--campaign--response-analytics)
+- [Insight Deep Dive — Customer Demographics & Risk Profile](#insight-deep-dive--customer-demographics--risk-profile)
+- [Recommendations](#recommendations)
+- [Tools Used](#tools-used)
+
 **Nova Life Insurance — Project Background**
 
 **Overview**
